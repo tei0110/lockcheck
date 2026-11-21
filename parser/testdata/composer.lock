@@ -1,0 +1,73 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "0123456789abcdef0123456789abcdef",
+    "packages": [
+        {
+            "name": "guzzlehttp/guzzle",
+            "version": "7.8.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/guzzle/guzzle.git",
+                "reference": "41042bc7ab002487b876a0683fc8dce04ddce104"
+            },
+            "require": {
+                "php": "^7.2.5 || ^8.0"
+            },
+            "type": "library",
+            "license": ["MIT"],
+            "time": "2023-12-03T20:35:24+00:00"
+        },
+        {
+            "name": "laravel/framework",
+            "version": "v11.9.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laravel/framework.git",
+                "reference": "2b3e8d75f10b0ed17416282946355dc026bf326c"
+            },
+            "require": {
+                "php": "^8.2"
+            },
+            "type": "library",
+            "license": ["MIT"],
+            "time": "2024-05-30T09:40:11+00:00"
+        },
+        {
+            "name": "symfony/console",
+            "version": "v7.1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/console.git",
+                "reference": "0aa29ca177f432ab68533432db0de059f39c92ae"
+            },
+            "type": "library",
+            "license": ["MIT"],
+            "time": "2024-06-28T10:03:55+00:00"
+        }
+    ],
+    "packages-dev": [
+        {
+            "name": "phpunit/phpunit",
+            "version": "11.2.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/phpunit.git",
+                "reference": "be9e3ed32a1287a9bb2b20fd1a3a5c9a0f3a2d04"
+            },
+            "type": "library",
+            "license": ["BSD-3-Clause"],
+            "time": "2024-06-20T13:11:31+00:00"
+        }
+    ],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "platform": {
+        "php": "^8.2"
+    },
+    "plugin-api-version": "2.6.0"
+}
